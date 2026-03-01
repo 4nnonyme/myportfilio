@@ -212,7 +212,7 @@
       .then(res => res.json())
       .then(data => {
         const container = document.getElementById("projects");
-        data.slice(0, 19).forEach(repo => {
+        data.slice(3, 22).forEach(repo => {
           const card = document.createElement("div");
           card.className = "project-card";
           card.innerHTML = `
@@ -226,4 +226,5 @@
   </script>
 </body>
 </html>
+
 
